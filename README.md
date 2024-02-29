@@ -12,7 +12,7 @@ Software in this script: Nano, MC, Docker, Docker-compose, Speedtest, Outline wi
 
 ### Fix this strings: 
 `-e WG_HOST=11.22.33.44` - Set in this string youre server IP \
-`-e PASSWORD=Enter youre password` - Admin web password, URL for enter in WEB: `http://Youre server IP:51821 `
+`-e PASSWORD=Enter youre password` - Admin web password, URL for enter in WEB: `http://Youre server IP:51821`
 
 ### 3. Start script. 
 `sudo su`\
@@ -23,8 +23,8 @@ After script finish you will see key, get it and add server in Outline manager f
 Thats all! You can make users, give him keys and use. 
 ### WireGuard 
 After script finish you need to go on the admin WEB for make user keys. \
-Go to address http://Youre server IP:51821/ \
-Use password what you ser in string ..PASSWORD.. in script. 
+Go to address `http://Youre server IP:51821` \
+Use password what you ser in string `PASSWORD` in script. 
 ### Speedtest 
 For test youre internet speed i add in script speedtest. \
 Jast enter in command line: `speedtest`
