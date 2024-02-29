@@ -12,7 +12,7 @@ Software in this script: Nano, MC, Docker, Docker-compose, Speedtest, Outline wi
 
 ### Fix this strings: 
 `-e WG_HOST=11.22.33.44` - Set in this string youre server IP \
-`-e PASSWORD=Enter youre password` - Admin web password, URL for enter in WEB: http://Youre server IP:51821/
+`-e PASSWORD=Enter youre password` - Admin web password, URL for enter in WEB: `http://Youre server IP:51821 `
 
 ### 3. Start script. 
 `sudo su`\
