@@ -1,8 +1,8 @@
-## Script for install  VPN and software on Ubuntu 18.04 and later.
-## Software in this script: Nano, MC, Docker, Docker-compose, Speedtest, Outline with Shadowsocks 
-## !!! In this script need for WireGuard need to set server IP and Admin password. 
-## Outline with Shadowsocks server key will be show after finish install, copy it and enter in Outline manager for PC. 
-## Than make client key in Outline manager and use it in Outline or Shadowsocks client. 
+## Script for install VPN WireGuard, Outline (Shadowsocks) and some software on Ubuntu 18.04 and later.
+## Software in this script: Nano, Midnight Commander, Docker, Docker Compose, Speedtest, Outline (Shadowsocks), WireGuard and other
+## https://github.com/stcmsk/vpn.git
+
+## How to install read README.md
 
 #!/bin/bash
 
@@ -31,4 +31,6 @@ apt update -y \
 --restart unless-stopped \
 ghcr.io/wg-easy/wg-easy \
 && docker ps -a \
-&& sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"   ## Install Outline with Shadowsocks
+&& sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)" \   ## Install Outline with Shadowsocks
+&& ls
+
