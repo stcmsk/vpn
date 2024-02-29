@@ -15,12 +15,12 @@ Software in this script: Nano, Midnight Commander, Docker, Docker Compose, Speed
 `bash vpn.sh`
 
 #### Outline (Shadowsocks). 
-After script finish you will see key, get it and add this key in Outline manager for PC. \
+After script finish you will see key, get it and add this key in Outline manager. \
 Thats all! You can make users, give him keys and use. 
 #### WireGuard 
 After script finish you need to go on the admin WEB for make user keys. \
 Go to address `http://Youre server IP:51821` \
-Use password what you ser in string `PASSWORD` in script. 
+Use password what you set in string `PASSWORD` in script. 
 #### Speedtest 
 For test youre internet speed i add in script speedtest. \
 Jast enter in command line: `speedtest`
